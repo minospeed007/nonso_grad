@@ -1,0 +1,52 @@
+.text-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    gap: 1rem;
+}
+.overall-div{
+    margin-top:3rem;
+    margin-bottom:3rem;
+}
+.img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.award-text-didv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    flex-direction: column;
+}
+.overall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.award-p-div{
+    width: 80%;
+    line-height: 2;
+}
+
+@media  screen and (max-width: 768px) {
+    .text-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        margin-top: 1.5rem;
+    }
+    .award-text-didv{
+        text-align: justify;
+        width: 90%;
+    }
+}

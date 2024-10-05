@@ -1,0 +1,44 @@
+
+
+.home-container{
+    display: flex;
+    justify-content: space-evenly;
+height: 100%;
+margin-top: 2rem;
+    width: 95%;
+}
+.home-profile-pic{
+    width: 20rem;
+    border-radius: 0.3rem;
+    margin-top: 2rem;
+    height: 20rem;
+}
+
+
+
+.home-text-div{
+    line-height: 2;
+    width: 57%;
+}
+.home-text-div >p{
+    font-size: 1.1rem;
+}
+.download-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+}
+
+@media  screen and (max-width: 768px) {
+    .home-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+.home-text-div{
+    width: 92%;
+    text-align: justify;
+}
+}
