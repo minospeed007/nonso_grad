@@ -1,3 +1,10 @@
+import best_com from '../../assests/best_com.jpg';
+import best_foreign from '../../assests/best_foreign.jpg';
+import overall_best from '../../assests/overall_best.jpg';
+import src_p from '../../assests/src.jpg';
+
+
+
 
 import './honor.css';
 
@@ -11,7 +18,7 @@ const Honor=()=>{
       <div className='overall'>
         <div className='text-div'>
         <div className='img-div'>
-            <img src='' alt='img'/>
+            <img src={overall_best} alt='img' className='awards-img'/>
 
         </div>
         <div className='award-text-didv'>
@@ -29,7 +36,7 @@ const Honor=()=>{
         
         <div className='text-div'>
         <div className='img-div'>
-            <img src='' alt='img'/>
+            <img src={best_com} alt='img' className='awards-img'/>
 
         </div>
             <div className='award-text-didv'>
@@ -47,7 +54,7 @@ const Honor=()=>{
         </div>
         <div className='text-div'>
         <div className='img-div'>
-            <img src='' alt='img'/>
+            <img src={best_foreign} alt='img' className='awards-img'/>
 
         </div>
             <div className='award-text-didv'>
@@ -68,7 +75,7 @@ const Honor=()=>{
         
         <div className='text-div'>
         <div className='img-div'>
-            <img src='' alt='img'/>
+            <img src={src_p} alt='img' className='awards-img'/>
 
         </div>
             <div className='award-text-didv'>
