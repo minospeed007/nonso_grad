@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import CV from '../../assests/nonso_graduate.docx';
+import CV from '../../assests/Nonso_CV.pdf';
+import transcript from '../../assests/Nonso_transcript.pdf';
 import { useState } from 'react';
 import './navbar.css';
 
@@ -26,7 +27,7 @@ const Navbar = () => {
 
           <div className={`download-divs ${isOpen ? 'open' : ''}`}>
             <a href={CV} download className='btn-link'>Vita</a>
-            <a href={CV} download className='btn-link'>Transcript</a>
+            <a href={transcript} download className='btn-link'>Transcript</a>
             <Link to='/awards' className='award-link'>Awards</Link>
             <a href='https://safemail-758v.onrender.com' className='btn-link'>Projects</a>
           </div>
