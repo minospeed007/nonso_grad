@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import CV from '../../assests/Nonso_CV.pdf';
+import CV from '../../assests/Nonso2_CV.pdf';
 import transcript from '../../assests/Nonso_transcript.pdf';
 import { useState } from 'react';
 import './navbar.css';
