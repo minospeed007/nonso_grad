@@ -25,7 +25,7 @@ const Honor=()=>{
         <h3>Overall Best Graduating Student Award</h3>
     <div className='award-p-div'>
             <p className='award-p'>
-            In August 2024, I was honored to receive the prestigious Overall Best Graduating Student Award at Dominion University College.
+            In September 2023, I was honored to receive the prestigious Overall Best Graduating Student Award at Dominion University College.
              This recognition reflects my dedication to academic excellence, leadership, and continuous learning throughout my studies. It stands as a testament to my commitment to pushing boundaries in my field and striving for success in all my endeavors.
              Along with the award, I also received a cash prize of 1,000 cedis.
             </p>
